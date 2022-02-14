@@ -115,6 +115,12 @@ This website is for a made-up internet café/gaming establishment. The site is r
         - The Contact Page gives the visitor information on how to contact the establishment.
 
         - The Contact Page contains a Google Maps location pin point.
+
+
+-   #### The Sign Up Page
+
+
+        - The Sign Up Page gives the user a chance to sign up to the website.
         
     
 
