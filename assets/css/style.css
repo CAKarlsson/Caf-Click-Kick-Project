@@ -131,3 +131,28 @@ h2 {
 #hero-image-txt h2 {
   color: white;
 }
+
+/* content style  */
+
+#hrstyle1 {
+    border-top: 10px solid transparent;
+  }
+  
+  #hrstyle2 {
+    border-top: 5px solid transparent;
+  }
+
+/* about us section */
+
+#about-us {
+    margin:15px 5px 0 5px;
+  }
+  
+#about-image {
+    background: url(../images/game-staff.jpg) no-repeat;
+    height: 400px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 30px;
+    position: relative;
+}
