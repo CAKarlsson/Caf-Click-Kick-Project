@@ -134,11 +134,11 @@ h2 {
 
 /* content style  */
 
-#hrstyle1 {
+#large-hr {
     border-top: 10px solid transparent;
   }
   
-  #hrstyle2 {
+#small-hr {
     border-top: 5px solid transparent;
   }
 
@@ -213,3 +213,17 @@ h2 {
     width: 100%;
     border: none;
   }
+
+  /* gallery */
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+    margin-top: 15px;
+  }
+  
+  #photos > img {
+    width: 100%;
+}
