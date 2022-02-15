@@ -192,3 +192,24 @@ h2 {
       color: white;
   
   }
+
+  /* contact page style */
+
+  #contact {
+    margin:15px 5px 10px 5px;
+  }
+  
+  
+  /* map styles */
+  
+  #map-wrapper {
+  
+    height: 300px;
+    margin-bottom: 107px;
+  }
+  
+  #map {
+    height: 100%;
+    width: 100%;
+    border: none;
+  }
