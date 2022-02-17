@@ -1,174 +1,170 @@
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lato&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
-html, body{
-    width: 100%;
-    height: 100%;
-    font-family: Lato, sans-serif;
-    font-weight: 300;
-    color: #1E1E1E;
-    background-color: #FF6F61;
-    letter-spacing: 0.8px;
-    font-size: 16px;
-    overflow-x: hidden;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  color: #1E1E1E;
+  background-color: #FF6F61;
+  letter-spacing: 0.8px;
+  font-size: 16px;
+  overflow-x: hidden;
 }
 
-#page-container {
-    position: relative;
-    min-height: 100vh;
-  }
-  
-  #content-wrap {
-    padding-bottom: 2.5rem;    
-  }
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
+}
 
 /* headings and logo */
-
 h1 {
-    font-family: 'Krona One', sans-serif;
-    letter-spacing: 3px;
-    color: #1E1E1E;
-    font-size: 200%;
-    letter-spacing: 8px;
-    text-align: left;
-    
+  font-family: 'Krona One', sans-serif;
+  letter-spacing: 3px;
+  color: #1E1E1E;
+  font-size: 200%;
+  letter-spacing: 8px;
+  text-align: left;
+
 }
 
 h2 {
-    font-family: 'Krona One', sans-serif;
-    color: #1E1E1E;
-    font-size: 175%;
-    letter-spacing: 4px;
-  
+  font-family: 'Krona One', sans-serif;
+  color: #1E1E1E;
+  font-size: 175%;
+  letter-spacing: 4px;
+
 }
 
-  .header h1 {
-    position: relative;
-    top: 12px;
-    left: 10px;
-  }
+.header h1 {
+  position: relative;
+  top: 12px;
+  left: 10px;
+}
 
 /* burger menu */
 /* Style the navigation menu */
+.navbar {
+  position: fixed;
+  z-index: 1;
+}
 
-#navbar {
-    position: fixed;
-    z-index: 1;
-  }
-  
-  .topnav {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    right: 0;
-  }
-  
-  /* Hide the links inside the navigation menu (except for logo/home) */
-  .topnav #myLinks {
-    display: none;
-  
-  }
-  
-  /* Style navigation menu links */
-  .topnav a {
-    color: white;
-    padding: 10px 13px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-    right: 0;
-    top: 0;
-  }
-  
-  /* Style the hamburger menu */
-  .topnav a.icon {
-    background: black;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  /* Add a grey background color on mouse-over */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
-  /* Style the active link (or home/logo) */
-  .active {
-    background-color: black;
-    color: white;
-    width: 90px;
-  }
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 10px 13px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+  right: 0;
+  top: 0;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: black;
+  color: white;
+  width: 90px;
+}
+
 /* hero image and cover text */
-
-#hero-outer {
-    height: 900px;
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+.hero-outer {
+  height: 900px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
 
-#hero-image {
-    height: 900px;
-    width: 100%;
-    background: url(../images/hero-image.jpg) no-repeat center center;
-    background-size: cover;
-    margin-top: 30px;
+.hero-image {
+  height: 900px;
+  width: 100%;
+  background: url(../images/hero-image.jpg) no-repeat center center;
+  background-size: cover;
+  margin-top: 30px;
 }
 
-#hero-image-txt {
-    color: white;
-    position: absolute;
-    left: 125px;
-    bottom: 50px;
-    background-color: rgba(18, 30, 199, 0.5);
-    font-family: BioRhyme, sans-serif;
-    font-size: 100%;
-    position: absolute;
-    padding: 15px;
+.hero-image-txt {
+  color: white;
+  position: absolute;
+  left: 125px;
+  bottom: 50px;
+  background-color: rgba(18, 30, 199, 0.5);
+  font-family: BioRhyme, sans-serif;
+  font-size: 100%;
+  position: absolute;
+  padding: 15px;
 }
 
-#hero-image-txt h2 {
+.hero-image-txt h2 {
   color: white;
 }
 
 /* content style  */
+.large-hr {
+  border-top: 10px solid transparent;
+}
 
-#large-hr {
-    border-top: 10px solid transparent;
-  }
-  
-#small-hr {
-    border-top: 5px solid transparent;
-  }
+.small-hr {
+  border-top: 5px solid transparent;
+}
 
 /* about us section */
+.about-us {
+  margin: 15px 5px 0 5px;
+}
 
-#about-us {
-    margin:15px 5px 0 5px;
-  }
-  
-#about-image {
-    background: url(../images/game-staff.jpg) no-repeat;
-    height: 400px;
-    width: 100%;
-    background-size: cover;
-    margin-top: 30px;
-    position: relative;
+.about-image {
+  background: url(../images/game-staff.jpg) no-repeat;
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  margin-top: 30px;
+  position: relative;
 }
 
 /* setups section */
-
 .setups-section {
-  margin:15px 5px 0 5px;
+  margin: 15px 5px 0 5px;
 }
 
 .setups-image {
@@ -181,126 +177,117 @@ h2 {
 }
 
 /* prices section */
-
-#prices-open-times {
-    text-align: center;
-    margin-top: 15px;
+.prices-open-times {
+  text-align: center;
+  margin-top: 15px;
 }
 
-#price-open-text {
-    text-align: left;
+.price-open-text {
+  text-align: left;
 }
 
 /* footer styles */
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
 
-#footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 2.5rem;            
-  }
-  
-  .social-networks {
-      text-align: center;
-  }
-  
-  .social-networks > li {
-      display: inline;
-  }
-  
-  .social-networks i {
-      font-size: 160%;
-      margin: 1%;
-      padding: 5%;
-      color: white;
-  
-  }
+.social-networks {
+  text-align: center;
+}
 
-  /* contact page style */
+.social-networks>li {
+  display: inline;
+}
 
-  #contact {
-    margin:15px 5px 10px 5px;
-  }
-  
-  
-  /* map styles */
-  
-  #map-wrapper {
-  
-    height: 300px;
-    margin-bottom: 107px;
-  }
-  
-  #map {
-    height: 100%;
-    width: 100%;
-    border: none;
-  }
+.social-networks i {
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: white;
 
-  /* gallery */
+}
 
-#photos {
-    clear: both;
-    line-height: 0;
-    column-count: 4;
-    column-gap: 0;
-    margin-top: 15px;
-  }
-  
-  #photos > img {
-    width: 100%;
+/* contact page style */
+.contact {
+  margin: 15px 5px 10px 5px;
+}
+
+
+/* map styles */
+.map-wrapper {
+
+  height: 300px;
+  margin-bottom: 107px;
+}
+
+.map {
+  height: 100%;
+  width: 100%;
+  border: none;
+}
+
+/* gallery */
+.photos {
+  clear: both;
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+  margin-top: 15px;
+}
+
+.photos>img {
+  width: 100%;
 }
 
 /* sign up section styles */
-
 #signup-section {
-    text-align: left;
+  text-align: left;
 }
 
 
 #signup-form {
-    margin: 150px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    left: 10%;
-    padding: 30px;
+  margin: 150px 10% 0 0;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+  max-width: 400px;
+  left: 10%;
+  padding: 30px;
+  margin-left: 35px;
 }
 
 #signup-form h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-    font-size: 22px;
+  color: #fafafa;
+  margin-bottom: 20px;
+  font-size: 22px;
 }
 
 #text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #1E1E1E;
-    border-radius: 2px;
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #1E1E1E;
+  border-radius: 2px;
 }
 
 #text-input:hover {
-    border-color: #1E1E1E;
+  border-color: #1E1E1E;
 }
 
 #submit-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 12px 25px 12px 25px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #1E1E1E;
-    color: #fafafa;
-    display: block;
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 12px 25px 12px 25px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #1E1E1E;
+  color: #fafafa;
+  display: block;
 }
 
 /* media queries */
-
-@media screen and (min-width:;) {
-  
-}
+@media screen and (min-width:;) {}
