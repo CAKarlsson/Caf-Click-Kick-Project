@@ -43,13 +43,13 @@ This website is for a made-up internet café/gaming establishment. The site is r
 
     -   #### Colour Scheme
 
-        <!-- -   Add colors here -->
+        -  The Two main colors used are #FF6F61 (Coral) and #1E1E1E (Black). Some white has also been used.
 
     -   #### Typography
 
-        <!-- -   Add fonts here -->
+        -  The Krona One font was used for headers with a fallback of Sans Serif if for some reason Krona One won't load
         
-        -   
+        -  The Lato font was used for all other text in the body such as paragraphs, with a fall back of Sans Serif
 
     -   #### Imagery
 
@@ -59,9 +59,30 @@ This website is for a made-up internet café/gaming establishment. The site is r
 *   ### Wireframes
 
 
-    -    Desktop Wireframe - [View]
+    -   Start screen Desktop Wireframe
+    <h2 align="left"><img src="assets/Wireframes/Webpage-desktop.png" width="210"></h2>
 
-    -    Mobile Wireframe - [View]
+    -   Gallery screen Desktop Wireframe
+    <h2 align="left"><img src="assets/Wireframes/Gallery-desktop.png" width="210"></h2>
+
+    -   Contact screen Desktop Wireframe
+    <h2 align="left"><img src="assets/Wireframes/Contact-desktop" width="210"></h2>
+
+    -   Sign up screen Desktop Wireframe
+    <h2 align="left"><img src="assets/Wireframes/Sign-up-desktop.png" width="210"></h2>
+
+    -   Start screen Mobile Wireframe
+    <h2 align="left"><img src="assets/Wireframes/Start-phone.png" width="210"></h2>
+
+    -   Gallery screen Mobile Wireframe
+    <h2 align="left"><img src="assets/Wireframes/Gallery-phone.png" width="210"></h2>
+
+    -   Contact screen Mobile Wireframe
+    <h2 align="left"><img src="assets/Wireframes/Contact-phone.png" width="210"></h2>
+
+    -   Sign up screen Mobile Wireframe
+    <h2 align="left"><img src="assets/Wireframes/Sign-up-phone.png" width="210"></h2>
+
 
 
 ## Features
@@ -88,13 +109,15 @@ This website is for a made-up internet café/gaming establishment. The site is r
 -   #### Setups Section
 
 
-        <!-- - info -->
+        - The Setups section contains details about the establishments equipment and setups.
 
 
--   #### The Price Section
+-   #### The Price and Times Section
 
+        
+        - The Times part of the section gives the visitor an idea of when the establishment is open.
 
-        - The Price Section gives the visitor information about the prices.
+        - The Price part of the section gives the visitor information about the prices.
 
 
 -   #### The Gallery Page
