@@ -19,6 +19,10 @@ body {
   overflow-x: hidden;
 }
 
+p {
+  margin: 0 20px;
+}
+
 .page-container {
   position: relative;
   min-height: 100vh;
@@ -36,6 +40,8 @@ h1 {
   font-size: 200%;
   letter-spacing: 8px;
   text-align: left;
+  margin: 0 20px;
+  
 
 }
 
@@ -44,6 +50,7 @@ h2 {
   color: #1E1E1E;
   font-size: 175%;
   letter-spacing: 4px;
+  margin: 20px 20px 0;
 
 }
 
@@ -149,7 +156,7 @@ h2 {
 }
 
 /* about us section */
-.about-us {
+#about-us {
   margin: 15px 5px 0 5px;
 }
 
@@ -177,7 +184,7 @@ h2 {
 }
 
 /* prices section */
-.prices-open-times {
+#prices-open-times {
   text-align: center;
   margin-top: 15px;
 }
@@ -213,6 +220,7 @@ h2 {
 /* contact page style */
 .contact {
   margin: 15px 5px 10px 5px;
+  text-align: center;
 }
 
 
@@ -287,8 +295,13 @@ h2 {
   background-color: #1E1E1E;
   color: #fafafa;
   display: block;
-}
 
+
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
 /* media queries */
 
 /* Medium devices (tablets, 768px and up) */
@@ -349,13 +362,40 @@ h2 {
   }
 
   /* about us section */
+  #about-us {
+    width: 40%;
+    margin-left: 40px;
+  }
 
   .about-image {
     max-width: 40%;
-    left: 0px;
+    right: 0px;
+    position: relative;
+    float: right;
   }
 
-}
+  /* Setups section */
+  .setups-section {
+    text-align: right;
+    clear: right;
+    position: relative;
+    margin-right: 40px;
+    float: right;
+  }
+
+  .setups-image {
+    max-width: 40%;
+    margin-top: 150px;
+  }
+
+  /* prices section */
+  .price-open-text {
+    text-align: center;
+  }
+  #prices-open-times {
+    margin-top: 20px;
+  }
+
 
 /* X-Large devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {}
