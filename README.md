@@ -59,13 +59,9 @@ This website is for a made-up internet café/gaming establishment. The site is r
 *   ### Wireframes
 
 
-    -   Landing page Desktop Wireframe - [View]
+    -    Desktop Wireframe - [View]
 
-    -   Landing page Mobile Wireframe - [View]
-
-    -   Form Page Desktop Wireframe - [View]
-
-    -   Form Page Mobile Wireframe - [View]
+    -    Mobile Wireframe - [View]
 
 
 ## Features
@@ -89,7 +85,7 @@ This website is for a made-up internet café/gaming establishment. The site is r
         - The About us section contains details about the establishment and what it has to offer.
 
 
-<!-- -   #### Section name -->
+-   #### Setups Section
 
 
         <!-- - info -->
