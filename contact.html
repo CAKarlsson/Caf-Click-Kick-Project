@@ -17,13 +17,10 @@
             <h1>Contact</h1>
         </div>
         <nav class="navbar">
-            <!--Load an icon library to show a hamburger menu (bars) on small screens -->
             <link rel="stylesheet"
                 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-            <!-- Top Navigation Menu -->
             <div class="topnav">
                 <a href="index.html" class="active">Start</a>
-                <!-- Navigation links (hidden by default) -->
                 <div id="myLinks">
                     <a href="index.html#about-us">About</a>
                     <a href="contact.html">Contact</a>
@@ -31,7 +28,6 @@
                     <a href="index.html#prices-open-times">Prices</a>
                     <a href="sign-up.html">Sign up</a>
                 </div>
-                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
                 <a href="javascript:void(0);" class="icon" onclick="myFunction()" aria-label="Burger menu button">
                     <i class="fa fa-bars"></i>
                 </a>
@@ -39,7 +35,7 @@
         </nav>
     </header>
     <section class="hero-outer">
-        <div class="hero-image" alt="four men sitting in internet café playing on computers">
+        <div class="hero-image">
             <div class="hero-image-txt">
                 <h2>FOR GAMERS</h2>
                 <h3>BY GAMERS</h3>
@@ -66,10 +62,9 @@
         <div class="map-wrapper">
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d508.57938804591964!2d18.048202372946935!3d59.34434691117214!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f9d71d2007fbb%3A0xf4eeb0cc680191d8!2sHeimdalsgatan%206%2C%20113%2028%20Stockholm!5e0!3m2!1sen!2sse!4v1644766149148!5m2!1sen!2sse"
-                width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                 class="map" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
     </section>
-    <div class="elfsight-app-f1794f8d-4f97-4aaf-99b7-d01e172315a2" id="tripadv"></div>
     <footer>
         <ul class="social-networks">
             <li>
@@ -93,7 +88,6 @@
     </footer>
     <script src="https://kit.fontawesome.com/ca933f7f3f.js" crossorigin="anonymous"></script>
     <script>
-        /* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
         function myFunction() {
             var x = document.getElementById("myLinks");
             if (x.style.display === "block") {

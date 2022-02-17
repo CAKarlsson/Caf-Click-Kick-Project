@@ -32,7 +32,6 @@ p {
   padding-bottom: 2.5rem;
 }
 
-/* headings and logo */
 h1 {
   font-family: 'Krona One', sans-serif;
   letter-spacing: 3px;
@@ -41,7 +40,7 @@ h1 {
   letter-spacing: 8px;
   text-align: left;
   margin: 0 20px;
-  
+
 
 }
 
@@ -60,8 +59,6 @@ h2 {
   left: 10px;
 }
 
-/* burger menu */
-/* Style the navigation menu */
 .navbar {
   position: fixed;
   z-index: 1;
@@ -75,13 +72,11 @@ h2 {
   right: 0;
 }
 
-/* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
 
 }
 
-/* Style navigation menu links */
 .topnav a {
   color: white;
   padding: 10px 13px;
@@ -92,7 +87,6 @@ h2 {
   top: 0;
 }
 
-/* Style the hamburger menu */
 .topnav a.icon {
   background: black;
   display: block;
@@ -101,20 +95,17 @@ h2 {
   top: 0;
 }
 
-/* Add a grey background color on mouse-over */
 .topnav a:hover {
   background-color: #ddd;
   color: black;
 }
 
-/* Style the active link (or home/logo) */
 .active {
   background-color: black;
   color: white;
   width: 90px;
 }
 
-/* hero image and cover text */
 .hero-outer {
   height: 900px;
   width: 100%;
@@ -145,10 +136,9 @@ h2 {
 .hero-image-txt h2 {
   color: white;
   margin: 0;
-  
+
 }
 
-/* content style  */
 .large-hr {
   border-top: 10px solid transparent;
 }
@@ -157,7 +147,6 @@ h2 {
   border-top: 5px solid transparent;
 }
 
-/* about us section */
 #about-us {
   margin: 15px 5px 0 5px;
 }
@@ -171,7 +160,6 @@ h2 {
   position: relative;
 }
 
-/* setups section */
 .setups-section {
   margin: 15px 5px 0 5px;
 }
@@ -185,7 +173,6 @@ h2 {
   position: relative;
 }
 
-/* prices section */
 #prices-open-times {
   text-align: center;
   margin-top: 15px;
@@ -195,7 +182,6 @@ h2 {
   text-align: left;
 }
 
-/* footer styles */
 .footer {
   position: absolute;
   bottom: 0;
@@ -219,14 +205,12 @@ h2 {
 
 }
 
-/* contact page style */
 .contact {
   margin: 15px 5px 10px 5px;
   text-align: center;
 }
 
 
-/* map styles */
 .map-wrapper {
 
   height: 300px;
@@ -235,11 +219,10 @@ h2 {
 
 .map {
   height: 100%;
-  width: 100%;
+  width: 300px;
   border: none;
 }
 
-/* gallery */
 .photos {
   line-height: 0;
   margin-top: 15px;
@@ -249,7 +232,6 @@ h2 {
   width: 100%;
 }
 
-/* sign up section styles */
 #signup-section {
   text-align: left;
 }
@@ -271,7 +253,7 @@ h2 {
   font-size: 22px;
 }
 
-#text-input {
+.text-input {
   background: transparent;
   color: #fafafa;
   width: 100%;
@@ -281,11 +263,11 @@ h2 {
   border-radius: 2px;
 }
 
-#text-input:hover {
+.text-input:hover {
   border-color: #1E1E1E;
 }
 
-#submit-button {
+.submit-button {
   margin-top: 20px;
   border-radius: 2px;
   padding: 12px 25px 12px 25px;
@@ -295,22 +277,15 @@ h2 {
   color: #fafafa;
   display: block;
 
-
 }
+
 label {
   display: block;
   margin-top: 10px;
 }
-/* media queries */
 
-/* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 600px) {}
-
-/* Large devices (desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
-  /* burger menu */
-  /* Style the navigation menu */
   .navbar {
     position: fixed;
     z-index: 1;
@@ -325,13 +300,11 @@ label {
     padding: 15px;
   }
 
-  /* Hide the links inside the navigation menu (except for logo/home) */
   .topnav #myLinks {
     display: unset;
 
   }
 
-  /* Style navigation menu links */
   .topnav a {
     color: white;
     padding: 50px 13px;
@@ -342,25 +315,21 @@ label {
     top: 0;
   }
 
-  /* Style the hamburger menu */
   .topnav a.icon {
     visibility: hidden;
   }
 
-  /* Add a grey background color on mouse-over */
   .topnav a:hover {
     background-color: #ddd;
     color: black;
   }
 
-  /* Style the active link (or home/logo) */
   .active {
     background-color: inherit;
     color: white;
     width: 90px;
   }
 
-  /* about us section */
   #about-us {
     width: 40%;
     margin-left: 40px;
@@ -373,7 +342,6 @@ label {
     float: right;
   }
 
-  /* Setups section */
   .setups-section {
     text-align: right;
     clear: right;
@@ -387,23 +355,17 @@ label {
     margin-top: 150px;
   }
 
-  /* prices section */
   .price-open-text {
     text-align: center;
   }
+
   #prices-open-times {
     margin-top: 20px;
   }
-/* gallery */
-.photos {
-  clear: both;
-  column-count: 4;
-  column-gap: 0;
-}
 
-.photos>img {
-  width: 100%;
+  .photos {
+    clear: both;
+    column-count: 4;
+    column-gap: 0;
+  }
 }
-
-/* X-Large devices (large desktops, 1200px and up) */
-@media screen and (min-width: 1200px) {}
