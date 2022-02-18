@@ -6,7 +6,7 @@
 This website is for a made-up internet café/gaming establishment. The site is responsive to most devices and easy to navigate for users of all kind.
 
 
-<h2 align="center"><!--Project on multiple devices here --></h2>
+<h2 align="left"><img src="assets/Wireframes/responsive-image.png"></h2>
 
 
 ## User Experience (UX)
