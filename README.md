@@ -195,7 +195,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
     - I used the lighthouse tool from chrome dev tools to harmonize the colors.
 
-<h2 align="center"><img src=></h2>
 <h2 align="center"><img src="assets/Wireframes/lighthouse.png"></h2>
 
 
