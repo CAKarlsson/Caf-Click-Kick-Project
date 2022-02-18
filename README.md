@@ -164,7 +164,6 @@ This website is for a made-up internet café/gaming establishment. The site is r
 
     - Font Awesome was used to import icons to the social network in the footer.
 
-
 3. [Git](https://git-scm.com/)
 
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
@@ -194,10 +193,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 - Accessibility
 
-    - I confirmed thet the colors and fonts choses are easy to read and accessible by running it through lighthouse in devtools.
+    - I used the lighthouse tool from chrome dev tools to harmonize the colors.
 
-<h2 align="center"><img src="https://raw.githubusercontent.com/joachimnorden/product-landingpage/main/lighthouse-result-landing-page.PNG"></h2>
-<h2 align="center"><img src="https://raw.githubusercontent.com/joachimnorden/product-landingpage/main/lighthouse-result-form-page.PNG"></h2>
+<h2 align="center"><img src=></h2>
+<h2 align="center"><img src="assets/Wireframes/lighthouse.png"></h2>
 
 
 
@@ -207,16 +206,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   #### First Time Visitor Goals
 
 
-    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the product.
+    1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the establishment.
 
 
-        1. Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. Underneath there is a Hero Image with Text and a "Pre-order" Call to action button.
+        1. When visitors enter the site they are greeted with a clean navigation bar and a hero image.
 
-        2. The main points are made immediately with the hero image
+        2. The user can scroll down to learn more about the establishment.
 
-        3. The user can scroll down to learn more about the product.
-
-        4. The navigation bar is fixed on top and will always be available for easy navigation
+        3. The navigation bar is fixed on top and will always be available for easy navigation.
 
 
     2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find details about the product.
@@ -224,24 +221,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. The navigation bar is fixed on top and will always be available for easy navigation.
 
-        2. On the Form Page, there is a back button to make sure the user doesn't feel trapped.
-
-
-    3. As a First Time Visitor, I want to know if it's available to buy the product
-
-        1. The navigation bar is fixed on top and have a CTA to the pre-order form page
-
+        2. On every separate page there is a navigation bar that can take you back to the start or anywhere else to avoid feeling trapped.
 
 
 -   #### Returning Visitor Goals
 
 
-    1. As a Returning Visitor, I want to easily find the buy button.
+    1. As a Returning Visitor, I want to easily find the gallery.
 
 
-        1. The navigation bar is fixed on top and have a CTA to the pre-order form page
+        1. Using the navigation bar it takes the visitor to the gallery.
 
-        2. Upon entering the site there is a Hero Image with Text and a "Pre-order" Call to action button.
 
 
     2. As a Returning Visitor, I want to find community links.
@@ -249,43 +239,25 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
         1. The social media links can be found at the footer of every page and will open a new tab for the user and more information can be found on each page.
 
--   ### Frequent Visitor Goals
-
-    1. As a Frequent Visitor, I want to easily see if new colors been added.
-
-        1. The navigation bar is fixed on top and have a link to color section.
-
-
 
 
 ### Further Testing
 
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
+-   The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
 
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, Iphone X Max.
 
--   A large amount of testing was done to ensure that all pages were linking correctly.
-
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+-   A couple of friends and family helped reviewing and rating the website.
 
 
 ### Known Bugs
 
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
+-   On the sign up page, the footer got stuck over the sign up form.
 
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
+    -   Fixed
 
-        - Fixed
-
--   The mobile footer on form page have a large white gap above it.
-
-- Submit button miss some styling on iPhone on form page.
-
-- Hero content as above fold on Internet Explorer
-
-- After form submission you're redirected to a Code Institute Thank you page.
 
 ## Deployment
 
@@ -378,15 +350,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 -   The navigation bar came for the follow post [W3 school post](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp)
 
--   The footer bar was inspired by Code Instutite Love Running Project.
-
-
-
-### Content
-
-
--   Inspiration for table data was found [here](https://mynewmicrophone.com/full-list-headphone-earphone-specifications-w-examples/)
-
+-   The footer bar and the sign up form was inspired by Code Instutite Love Running Project.
 
 
 
@@ -402,7 +366,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   My Mentor for continuous helpful feedback.
 
 
--   Tutor support at Code Institute for their support.
+-   The codeinstitute slack community helped a whole lot.
         
     
 
