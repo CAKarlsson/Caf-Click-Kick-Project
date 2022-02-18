@@ -97,7 +97,7 @@ This website is for a made-up internet café/gaming establishment. The site is r
 -   #### The Header
 
 
-        - The header shows the contains the name of the establishment and the navigation bar.
+        - The header contains the name of the establishment and the navigation bar.
 
 
 -   #### About Us Section
