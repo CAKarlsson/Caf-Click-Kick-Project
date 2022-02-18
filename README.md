@@ -1,7 +1,7 @@
 <h1 align="center">Café Click & Kick Website</h1>
 
 
-[View project here.]
+[View project here.](https://cakarlsson.github.io/Caf-Click-Kick-Project/)
 
 This website is for a made-up internet café/gaming establishment. The site is responsive to most devices and easy to navigate for users of all kind.
 
